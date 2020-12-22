@@ -22,7 +22,7 @@
 
 .post-reputation {
   	padding-bottom: 0;
-  	height: 20px;
+  	height: 25px;
   	font-weight: bold;
 		cursor: auto !important;
 		width: 18px;
@@ -32,7 +32,7 @@
 
 .post-reputation.positive span, .post-reputation.negative span { color: #fff; font-size: 12px; }
 
-.post-reputation.positive { background: #00ab00; }
+.post-reputation.positive { /* background: #00ab00; */ }
 
 .post-reputation.negative {
 	background: #D31141;
@@ -40,7 +40,7 @@
 }
 
 .post-reputation.neutral {
-	padding: 2px 8px 0px 8px;
+	padding: 5px 8px 0px 8px;
 }
 
 .post-reputation.neutral span { color: #666666; font-size: 12px; }
